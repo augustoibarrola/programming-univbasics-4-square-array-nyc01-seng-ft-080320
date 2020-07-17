@@ -1,4 +1,3 @@
-require 'pry'
 def square_array(array)
   counter = 0
   results = Array.new
@@ -6,5 +5,4 @@ def square_array(array)
     results.push(array[counter])
     counter += 1
   end
-  binding.pry
 end
